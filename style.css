@@ -4,9 +4,8 @@
 }
 
 .main{
-
     width: 100%;
-    background-color: white;
+    background: linear-gradient(45deg, #d2001a, #7462ff, #f48e21, #23d5ab);
     background-position: center;
     background-size: cover;
     height: 100vh;
@@ -15,7 +14,8 @@
 }
 
 .navbar{
-    width: 86%;
+    background: black;
+    width: 100%;
     display: flex;
     margin: auto;
     padding: 15px 0;
@@ -27,8 +27,8 @@
 .navbar .logo{
     width: 160px;
     cursor: pointer;
-    margin-top: -1%;
-    margin-left: -5%;
+    margin-top: 0%;
+    margin-left: 5%;
 }
 
 ul{
@@ -42,16 +42,21 @@ ul li{
 }
 
 ul li a{
-    font-size: 16px;
+    position: relative;
+    left: -300px;
+    top: 30px;
+    font-family: sans-serif;
+    font-size: 35px;
     font-weight: bold;
     text-decoration: none;
-    color: black;
-    margin-top: -3%;
+    color: cornflowerblue;
+    margin-top: -5%;
+    margin: 5px
 
 }
 
 ul li a:hover{
-    color: crimson(230,104,59);
+    color: white;
 
 }
 
@@ -61,14 +66,14 @@ ul li a:hover{
 }
 
 .info h1{
-    margin-top: 3%;
-    font-size: 65px;
+    margin-top: 2%;
+    font-size: 22px;
     color: black;
 }
 
 .info h3{
     margin-top: 3%;
-    font-size: 18px;
+    font-size: 25px;
     letter-spacing: 1px;
     line-height: 24px;
 }
@@ -100,14 +105,37 @@ ul li a:hover{
 }
 
 .icons ion-icon{
-    margin-top: 5%;
-    margin-left: 7%;
+    position: relative;
+    bottom: -130px;
+    left: 15%;
     color: black;
-    margin-right: -60px;
+    margin-right: -100px;
     font-size: 40px;
     transition: .4s ease;
 }
 
 .icons ion-icon:hover{
     color: aqua;
+}
+
+.hobbies{
+    margin-top: 3%;
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+
+.hobbies ul{
+    font-weight: bold;
+    margin-top: 3%;
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+
+.hobbies h1{
+    margin-top: 3%;
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 24px;
 }
